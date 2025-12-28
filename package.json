@@ -41,7 +41,25 @@
       "MIDI editing",
       "Audio effects",
       "Instrument racks"
-    ]
+    ],
+    "screenshots": {
+      "hero": "screenshots/hero.png",
+      "images": [
+        "screenshots/1-main.png",
+        "screenshots/2-feature.png"
+      ]
+    },
+    "downloads": {
+      "web": "https://zos-apps.github.io/ableton-live"
+    },
+    "featured": false,
+    "tags": [
+      "utility",
+      "ableton live"
+    ],
+    "releaseDate": "2024-12-28",
+    "support": "https://github.com/zos-apps/ableton-live/issues",
+    "changelog": "https://github.com/zos-apps/ableton-live/releases"
   },
   "scripts": {
     "build": "tsup",
