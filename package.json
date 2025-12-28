@@ -21,7 +21,27 @@
         "height": 800
       },
       "resizable": true
-    }
+    },
+    "about": "Professional digital audio workstation for music production, live performance, and sound design.",
+    "help": [
+      "Create tracks with + button",
+      "Drag samples to clips",
+      "Use transport controls to play"
+    ],
+    "docs": "https://zos-apps.github.io/ableton-live",
+    "site": "https://github.com/zos-apps/ableton-live",
+    "shortcuts": [
+      "Space Play/Stop",
+      "Tab Switch views",
+      "Cmd+S Save"
+    ],
+    "features": [
+      "Session View",
+      "Arrangement View",
+      "MIDI editing",
+      "Audio effects",
+      "Instrument racks"
+    ]
   },
   "scripts": {
     "build": "tsup",
@@ -54,5 +74,13 @@
     "ableton-live",
     "macos",
     "desktop"
-  ]
+  ],
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/zos-apps"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
 }
