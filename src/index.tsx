@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 interface AbletonLiveProps {
   onClose: () => void;
@@ -30,7 +30,7 @@ const mockTracks: Track[] = [
   { id: '4', name: 'Vocals', type: 'audio', color: '#22c55e', clips: [{ id: 'c6', name: 'Verse', scene: 1, playing: false }], volume: 0, pan: 0, muted: true, solo: false },
 ];
 
-const AbletonLive: React.FC<AbletonLiveProps> = ({ onClose }) => {
+const AbletonLive: React.FC<AbletonLiveProps> = ({ onClose: _onClose }) => {
   const [tracks, setTracks] = useState(mockTracks);
   const [view, setView] = useState<'session' | 'arrangement'>('session');
   const [isPlaying, setIsPlaying] = useState(false);
